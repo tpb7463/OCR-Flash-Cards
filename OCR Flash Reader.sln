@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ETGlib", "ETGlib\ETGlib.vcxproj", "{7F9808E6-D631-430A-B043-F0353FF4945D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleDriver", "ConsoleDriver\ConsoleDriver.vcxproj", "{A043365E-E714-4B64-A7A4-104FED7780A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7F9808E6-D631-430A-B043-F0353FF4945D} = {7F9808E6-D631-430A-B043-F0353FF4945D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F9808E6-D631-430A-B043-F0353FF4945D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F9808E6-D631-430A-B043-F0353FF4945D}.Debug|Win32.Build.0 = Debug|Win32
+		{7F9808E6-D631-430A-B043-F0353FF4945D}.Release|Win32.ActiveCfg = Release|Win32
+		{7F9808E6-D631-430A-B043-F0353FF4945D}.Release|Win32.Build.0 = Release|Win32
+		{A043365E-E714-4B64-A7A4-104FED7780A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A043365E-E714-4B64-A7A4-104FED7780A2}.Debug|Win32.Build.0 = Debug|Win32
+		{A043365E-E714-4B64-A7A4-104FED7780A2}.Release|Win32.ActiveCfg = Release|Win32
+		{A043365E-E714-4B64-A7A4-104FED7780A2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
